@@ -181,7 +181,7 @@ Private Sub Application_ItemSend(ByVal Item As Object, Cancel As Boolean)
     Dim strMsg As String
     Dim domain As String
     
-    domain = "[domain goes here]"
+    domain = "[domain goes here e.g. domain.com]"
 
     Const PR_SMTP_ADDRESS As String = "http://schemas.microsoft.com/mapi/proptag/0x39FE001E"
 
